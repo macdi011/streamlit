@@ -1,6 +1,6 @@
-!pip install streamlit
-!pip install speechrecognition
-!pip install nltk
+#!pip install streamlit
+#!pip install speechrecognition
+#!pip install nltk
 
 import json
 import nltk
