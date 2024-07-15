@@ -17,7 +17,7 @@ except ImportError:
 
 from distutils.version import LooseVersion                     
 
-if LooseVersion(pyaudio.__version__) < LooseVersion("0.2.11")  
+if LooseVersion(pyaudio.__version__) < LooseVersion("0.2.11") : 
 
     raise AttributeError("PyAudio 0.2.11 or later is required")  
 # Charger les données depuis le fichier JSON
