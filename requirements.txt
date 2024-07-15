@@ -2,4 +2,3 @@ nltk==3.8.1
 speech-recognition-python==3.9.9
 SpeechRecognition==3.10.4
 PyAudio==0.2.14
-PyAudioWPatch==0.2.12.6
