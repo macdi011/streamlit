@@ -1,2 +1,3 @@
 nltk==3.8.1
 speech-recognition-python==3.9.9
+SpeechRecognition==3.10.4
