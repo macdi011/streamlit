@@ -13,7 +13,7 @@ try:
 
 except ImportError:                                            
 
-    raise AttributeError("Could not find PyAudio; check insta  
+    raise AttributeError("Could not find PyAudio; check insta ") 
 
 from distutils.version import LooseVersion                     
 
