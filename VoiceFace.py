@@ -7,7 +7,7 @@ import nltk
 from nltk.chat.util import Chat, reflections
 import streamlit as st
 import speech_recognition as sr
-import pyaudio
+#import pyaudio
 try:                                                           
 
     import pyaudio                                             
