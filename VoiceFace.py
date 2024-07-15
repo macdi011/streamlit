@@ -7,7 +7,19 @@ import nltk
 from nltk.chat.util import Chat, reflections
 import streamlit as st
 import speech_recognition as sr
+try:                                                           
 
+    import pyaudio                                             
+
+except ImportError:                                            
+
+    raise AttributeError("Could not find PyAudio; check insta  
+
+from distutils.version import LooseVersion                     
+
+if LooseVersion(pyaudio.__version__) < LooseVersion("0.2.11")  
+
+    raise AttributeError("PyAudio 0.2.11 or later is required  
 # Charger les données depuis le fichier JSON
 with open('intents.json') as file:
     data = json.load(file)
